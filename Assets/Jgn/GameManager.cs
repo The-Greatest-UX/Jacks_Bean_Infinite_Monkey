@@ -170,7 +170,20 @@ public class GameManager : MonoBehaviour
         percent = p;
     }
 
+    public void Cal_Percent_2()
+    {
+        float Load_Percent = 0.03f;
+        float tempP = Random.Range(0.0f, 1.0f);
+        if (tempP <= Load_Percent)
+        {
+            //성공
+        }
+        else
+        {
+            //실패
+        }
 
+    }
 
     public void Add_Time(float value)
     {
