@@ -1203,6 +1203,7 @@ GameObject:
   m_Component:
   - component: {fileID: 478995351}
   - component: {fileID: 478995350}
+  - component: {fileID: 478995352}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1255,6 +1256,43 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &478995352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478995349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ac32a8062dece942bb49808729e199f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monkeyTypingSpeed: 3
+  monkeyRestCycle: 5
+  monkeyRestTime: 7
+  SucceseGetGoldArray:
+  - m_Exponent: 0
+    m_Mantissa: 100
+  - m_Exponent: 0
+    m_Mantissa: 200
+  - m_Exponent: 0
+    m_Mantissa: 300
+  - m_Exponent: 0
+    m_Mantissa: 400
+  - m_Exponent: 0
+    m_Mantissa: 500
+  - m_Exponent: 0
+    m_Mantissa: 600
+  - m_Exponent: 0
+    m_Mantissa: 700
+  - m_Exponent: 0
+    m_Mantissa: 800
+  - m_Exponent: 0
+    m_Mantissa: 900
+  - m_Exponent: 1
+    m_Mantissa: 1
+  goldGetMultiple: 1.5
 --- !u!1 &554269361
 GameObject:
   m_ObjectHideFlags: 0
