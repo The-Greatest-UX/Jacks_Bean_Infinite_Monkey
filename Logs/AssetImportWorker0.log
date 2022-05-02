@@ -74,6 +74,7 @@ Received Import Request.
 Start importing Assets/d8djvzb-ad1cb75a-036e-40cd-9210-540c8715806a.png using Guid(d9749c604d9ec0743992d39975156955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae14a95a0f5a4effeb859c64410e7896') in 0.155059 seconds
   Import took 0.161055 seconds .
 
+<<<<<<< HEAD
 ========================================================================
 Received Prepare
 Trying to reload asset but can't find object on disk
@@ -131,3 +132,5 @@ Unloading 302 unused Assets to reduce memory usage. Loaded Objects now: 2076.
 Total: 2.440700 ms (FindLiveObjects: 0.220300 ms CreateObjectMapping: 0.086100 ms MarkObjects: 1.992700 ms  DeleteObjects: 0.140400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+=======
+>>>>>>> main
