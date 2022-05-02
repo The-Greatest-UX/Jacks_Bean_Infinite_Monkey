@@ -1,0 +1,173 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 22000.613; Version 2009; 64bit' Language: 'ko' Physical Memory: 32512 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/nii90/JaeHyun/UnityProject/Jacks_Bean_Infinite_Monkey
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+3129
+Successfully changed project path to: C:/Users/nii90/JaeHyun/UnityProject/Jacks_Bean_Infinite_Monkey
+C:/Users/nii90/JaeHyun/UnityProject/Jacks_Bean_Infinite_Monkey
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 54.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nii90/JaeHyun/UnityProject/Jacks_Bean_Infinite_Monkey/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   
+    VRAM:     3964 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005387 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 52.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.749 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 75.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.854 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2267.
+Total: 2.959300 ms (FindLiveObjects: 0.219200 ms CreateObjectMapping: 0.089300 ms MarkObjects: 2.574200 ms  DeleteObjects: 0.075100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/d8djvzb-ad1cb75a-036e-40cd-9210-540c8715806a.png
+  artifactKey: Guid(d9749c604d9ec0743992d39975156955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/d8djvzb-ad1cb75a-036e-40cd-9210-540c8715806a.png using Guid(d9749c604d9ec0743992d39975156955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae14a95a0f5a4effeb859c64410e7896') in 0.242366 seconds
+  Import took 0.246293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.285953 seconds.
+  path: Assets/KJH
+  artifactKey: Guid(ec4cef9df5a92e040b02354bfb4c9f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KJH using Guid(ec4cef9df5a92e040b02354bfb4c9f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71916fed46941c6494a3cca975ecc3b8') in 0.003924 seconds
+  Import took 0.007797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012898 seconds.
+  path: Assets/KJH
+  artifactKey: Guid(ec4cef9df5a92e040b02354bfb4c9f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KJH using Guid(ec4cef9df5a92e040b02354bfb4c9f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71916fed46941c6494a3cca975ecc3b8') in 0.003560 seconds
+  Import took 0.007148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.769993 seconds.
+  path: Assets/KJH/Scripts
+  artifactKey: Guid(99157cd72984fb247bc5a1cb6d29c67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KJH/Scripts using Guid(99157cd72984fb247bc5a1cb6d29c67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0882d3df08dd26bf29d72fd4286a90b8') in 0.004884 seconds
+  Import took 0.008541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.551131 seconds.
+  path: Assets/KJH/Scripts/Common
+  artifactKey: Guid(370e0bac66edf8e4bad86852a9a5901a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KJH/Scripts/Common using Guid(370e0bac66edf8e4bad86852a9a5901a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a75e3d2a877c70bbac3b9ba015b7f5') in 0.004021 seconds
+  Import took 0.007808 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001991 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+OneLine.Settings.SettingsMenu:CreateSettings () (at Assets/OneLine/OneLine/Editor/Settings/Tools/SettingsMenu.cs:56)
+OneLine.Settings.SettingsMenu:LoadSettings () (at Assets/OneLine/OneLine/Editor/Settings/Tools/SettingsMenu.cs:40)
+OneLine.Settings.SettingsMenu:.cctor () (at Assets/OneLine/OneLine/Editor/Settings/Tools/SettingsMenu.cs:18)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/OneLine/OneLine/Editor/Settings/Tools/SettingsMenu.cs line 56]
+
+UnityEngine.UnityException: Creating asset at path Assets/Editor/Resources/OneLine/OneLineSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at OneLine.Settings.SettingsMenu.CreateSettings () [0x0000a] in C:\Users\nii90\JaeHyun\UnityProject\Jacks_Bean_Infinite_Monkey\Assets\OneLine\OneLine\Editor\Settings\Tools\SettingsMenu.cs:56 
+  at OneLine.Settings.SettingsMenu.LoadSettings () [0x0000f] in C:\Users\nii90\JaeHyun\UnityProject\Jacks_Bean_Infinite_Monkey\Assets\OneLine\OneLine\Editor\Settings\Tools\SettingsMenu.cs:40 
+  at OneLine.Settings.SettingsMenu..cctor () [0x00000] in C:\Users\nii90\JaeHyun\UnityProject\Jacks_Bean_Infinite_Monkey\Assets\OneLine\OneLine\Editor\Settings\Tools\SettingsMenu.cs:18 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.268 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1912 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2379.
+Total: 2.901600 ms (FindLiveObjects: 0.296500 ms CreateObjectMapping: 0.128100 ms MarkObjects: 2.449800 ms  DeleteObjects: 0.026000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.581062 seconds.
+  path: Assets/KJH/Scripts/Common/CC.cs
+  artifactKey: Guid(5f7afa9f6eca2b94f935ded6754226c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KJH/Scripts/Common/CC.cs using Guid(5f7afa9f6eca2b94f935ded6754226c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad036f509c2af69ab7b9b6f575f5c4f6') in 0.016514 seconds
+  Import took 0.020630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.136269 seconds.
+  path: Assets/KJH/Scripts/Common/CC.cs
+  artifactKey: Guid(5f7afa9f6eca2b94f935ded6754226c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KJH/Scripts/Common/CC.cs using Guid(5f7afa9f6eca2b94f935ded6754226c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad036f509c2af69ab7b9b6f575f5c4f6') in 0.003362 seconds
+  Import took 0.007188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.496020 seconds.
+  path: Assets/KJH/Scripts/Common/CommonCurve.cs
+  artifactKey: Guid(eb957abb12a9a1c4aa9c684925d68bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KJH/Scripts/Common/CommonCurve.cs using Guid(eb957abb12a9a1c4aa9c684925d68bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1655d7a027a9b459f8d7d471a2c8bdc4') in 0.004197 seconds
+  Import took 0.008799 seconds .
+
