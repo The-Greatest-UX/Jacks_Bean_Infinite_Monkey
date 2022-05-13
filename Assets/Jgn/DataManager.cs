@@ -10,60 +10,61 @@ using Newtonsoft.Json.Linq;
 public class CommonData
 {
 
-    public List<CommonMember_BigNumber> Init_Gold;
-    public List<CommonMember_BigNumber> Init_RP;
-    public List<CommonMember_Int> Init_Diamod;
-    public List<CommonMember_Float> Init_Monkey_Rest_Time;
-    public List<CommonMember_Float> Init_Monkey_Typing_Time;
-    public List<CommonMember_Int> Init_Monkey_Health;
-    public List<CommonMember_Float> Monkey_Price_Scale_Value;
-    public List<CommonMember_BigNumber> Init_Stage1_Monkey_Price;
-    public List<CommonMember_BigNumber> Init_Stage2_Monkey_Price;
-    public List<CommonMember_BigNumber> Init_Stage3_Monkey_Price;
-    public List<CommonMember_BigNumber> Init_Stage4_Monkey_Price;
-    public List<CommonMember_Float> Structure_Price_Scale_Value;
-    public List<CommonMember_Float> Structure_Reinforce_Gold_Scale_Value;
-    public List<CommonMember_Float> Letter_Add_Gold_Scale_Value;
-    public List<CommonMember_Float> Research_IDEA_SCALE_Value;
-    public List<CommonMember_Float> Research_MONKEY_TYPING_TIME_Value;
-    public List<CommonMember_Int> Research_MONKEY_HEALTH_Value;
-    public List<CommonMember_Float> Research_MONKEY_REST_TIEM_Value;
-    public List<CommonMember_Float> Research_MONKEY_PRICE_SALE_Value;
-    public List<CommonMember_Float> Research_STRUCTURE_PRICE_SALE_Value;
-    public List<CommonMember_Int> Research_OVERTIME_MAX_TIME_Value;
-    public List<CommonMember_Float> Research_DONATION_SCALE_Value;
-    public List<CommonMember_Int> Research_METALTIME_DURATION_Value;
-    public List<CommonMember_Float> Research_GOLD_SCALE_Value;
+    public CommonMember_BigNumber Init_Gold;
+    public CommonMember_BigNumber Init_RP;
+    public CommonMember_Int Init_Diamod;
+    public CommonMember_Float Init_Monkey_Rest_Time;
+    public CommonMember_Float Init_Monkey_Typing_Time;
+    public CommonMember_Int Init_Monkey_Health;
+    public CommonMember_Float Monkey_Price_Scale_Value;
+    public CommonMember_BigNumber Init_Stage1_Monkey_Price;
+    public CommonMember_BigNumber Init_Stage2_Monkey_Price;
+    public CommonMember_BigNumber Init_Stage3_Monkey_Price;
+    public CommonMember_BigNumber Init_Stage4_Monkey_Price;
+    public CommonMember_Float Structure_Price_Scale_Value;
+    public CommonMember_Float Structure_Reinforce_Gold_Scale_Value;
+    public CommonMember_Float Letter_Add_Gold_Scale_Value;
+    public CommonMember_Float Research_IDEA_SCALE_Value;
+    public CommonMember_Float Research_MONKEY_TYPING_TIME_Value;
+    public CommonMember_Int Research_MONKEY_HEALTH_Value;
+    public CommonMember_Float Research_MONKEY_REST_TIEM_Value;
+    public CommonMember_Float Research_MONKEY_PRICE_SALE_Value;
+    public CommonMember_Float Research_STRUCTURE_PRICE_SALE_Value;
+    public CommonMember_Int Research_OVERTIME_MAX_TIME_Value;
+    public CommonMember_Float Research_DONATION_SCALE_Value;
+    public CommonMember_Int Research_METALTIME_DURATION_Value;
+    public CommonMember_Float Research_GOLD_SCALE_Value;
+
 
     public void printData()
     {
-        Debug.Log(Init_Diamod);
-        Debug.Log(Init_Monkey_Rest_Time);
-        Debug.Log(Init_Monkey_Typing_Time);
-        Debug.Log(Init_Monkey_Health);
-        Debug.Log(Monkey_Price_Scale_Value);
-        Debug.Log(Init_Stage1_Monkey_Price);
-        Debug.Log(Init_Stage2_Monkey_Price);
-        Debug.Log(Init_Stage3_Monkey_Price);
-        Debug.Log(Init_Stage4_Monkey_Price);
+        Debug.Log(Init_Diamod.Int_Value);
+        Debug.Log(Init_Monkey_Rest_Time.Float_Value);
+        Debug.Log(Init_Monkey_Typing_Time.Float_Value);
+        Debug.Log(Init_Monkey_Health.Int_Value);
+        Debug.Log(Monkey_Price_Scale_Value.Float_Value);
+        Debug.Log(Init_Stage1_Monkey_Price.Bignumber_Value);
+        Debug.Log(Init_Stage2_Monkey_Price.Bignumber_Value);
+        Debug.Log(Init_Stage3_Monkey_Price.Bignumber_Value);
+        Debug.Log(Init_Stage4_Monkey_Price.Bignumber_Value);
     }
 }
 
 public class CommonMember_BigNumber
 {
     //public BigNumber Bignumber_Value;
-    public string Bignumber_Value;
-    public string Description;
+    public int Bignumber_Value { get; set; }
+    public string Description { get; set; }
 }
 public class CommonMember_Int
 {
-    public int Int_Value;
-    public string Description;
+    public int Int_Value { get; set; }
+    public string Description { get; set; }
 }
 public class CommonMember_Float
 {
-    public int Float_Value;
-    public string Description;
+    public double Float_Value { get; set; }
+    public string Description { get; set; }
 }
 
 
@@ -94,13 +95,17 @@ public class DataManager : MonoBehaviour
         fileStream.Read(data, 0, data.Length);
         fileStream.Close();
         string jsonData = Encoding.UTF8.GetString(data);
-
-
+        //jsonData = JsonConvert.SerializeObject(jsonData);
+   
         CommonData Data = new CommonData();
-        Data = JsonConvert.DeserializeObject<CommonData>(jsonData);
-
 
         Debug.Log(jsonData);
+
+        Debug.Log(Data);
+        Data = JsonConvert.DeserializeObject<CommonData>(jsonData);
+        Data.printData();
+
+
         /*
         string LoadData = File.ReadAllText(Application.dataPath + "/Resources/DataJson/Data Table - Common.json");
         
