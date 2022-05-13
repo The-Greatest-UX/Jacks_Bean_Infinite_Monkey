@@ -1,0 +1,98 @@
+{
+  "Init_Gold": {
+    "Bignumber_Value": 100,
+    "Description": "게임 첫 접속 시 보유하는 골드"
+  },
+  "Init_RP": {
+    "Bignumber_Value": 0,
+    "Description": "게임 첫 접속 시 보유하는 연구 포인트"
+  },
+  "Init_Diamod": {
+    "Int_Value": 0,
+    "Description": "게임 첫 접속 시 보유하는 다이아"
+  },
+  "Init_Monkey_Rest_Time": {
+    "Float_Value": 10,
+    "Description": "원숭이 휴식 시간 초기값"
+  },
+  "Init_Monkey_Typing_Time": {
+    "Float_Value": 5,
+    "Description": "원숭이 타자 속도 초기값"
+  },
+  "Init_Monkey_Health": {
+    "Int_Value": 3,
+    "Description": "원숭이 체력"
+  },
+  "Monkey_Price_Scale_Value": {
+    "Float_Value": 1.25,
+    "Description": "원숭이 구매 시 가격 상승치"
+  },
+  "Init_Stage1_Monkey_Price": {
+    "Bignumber_Value": 100,
+    "Description": "스테이지 별 원숭이 가격 초기값"
+  },
+  "Init_Stage2_Monkey_Price": {
+    "Bignumber_Value": 100,
+    "Description": " "
+  },
+  "Init_Stage3_Monkey_Price": {
+    "Bignumber_Value": 100,
+    "Description": " "
+  },
+  "Init_Stage4_Monkey_Price": {
+    "Bignumber_Value": 100,
+    "Description": " "
+  },
+  "Structure_Price_Scale_Value": {
+    "Float_Value": 1.2,
+    "Description": "구조물 구매 시 가격 상승치"
+  },
+  "Structure_Reinforce_Gold_Scale_Value": {
+    "Float_Value": 1.5,
+    "Description": "구조물 증강 시 골드 획득량 상승치"
+  },
+  "Letter_Add_Gold_Scale_Value": {
+    "Float_Value": 1.5,
+    "Description": "문자 추가 시 골드 획득량 상승치"
+  },
+  "Research_IDEA_SCALE_Value": {
+    "Float_Value": 1.1,
+    "Description": " "
+  },
+  "Research_MONKEY_TYPING_TIME_Value": {
+    "Float_Value": 0.1,
+    "Description": " "
+  },
+  "Research_MONKEY_HEALTH_Value": {
+    "Int_Value": 1,
+    "Description": " "
+  },
+  "Research_MONKEY_REST_TIEM_Value": {
+    "Float_Value": 0.2,
+    "Description": " "
+  },
+  "Research_MONKEY_PRICE_SALE_Value": {
+    "Float_Value": 0.8,
+    "Description": " "
+  },
+  "Research_STRUCTURE_PRICE_SALE_Value": {
+    "Float_Value": 0.8,
+    "Description": " "
+  },
+  "Research_OVERTIME_MAX_TIME_Value": {
+    "Int_Value": 1800,
+    "Description": " "
+  },
+  "Research_DONATION_SCALE_Value": {
+    "Float_Value": 1.1,
+    "Description": " "
+  },
+  "Research_METALTIME_DURATION_Value": {
+    "Int_Value": 5,
+    "Description": " "
+  },
+  "Research_GOLD_SCALE_Value": {
+    "Float_Value": 1.5,
+    "Description": " "
+  }
+}

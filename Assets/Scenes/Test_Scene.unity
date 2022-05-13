@@ -492,7 +492,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &233332475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1210,7 +1210,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &478995350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3529,7 +3529,7 @@ GameObject:
   - component: {fileID: 1993263217}
   - component: {fileID: 1993263216}
   m_Layer: 0
-  m_Name: CsvManager
+  m_Name: DataManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3544,10 +3544,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1993263215}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 047a75612ea67f347a2e3fc37b8a9ec5, type: 3}
+  m_Script: {fileID: 11500000, guid: eccecb04394232e43ac7f218bb537bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _percent: 0
 --- !u!4 &1993263217
 Transform:
   m_ObjectHideFlags: 0
